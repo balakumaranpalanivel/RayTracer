@@ -4,6 +4,7 @@
 */
 
 #include <math.h>
+#include <iostream>
 
 template <typename T>
 class Vector3
@@ -24,6 +25,16 @@ public:
 	Vector3<T> operator + (const Vector3<T> &v) const; 
 	Vector3<T> operator - (const Vector3<T> &v) const;
 	Vector3<T> operator * (const T &r) const;
+
+	const T& operator[](int i) const
+	{
+		return (&x)[i];
+	}
+
+	//friend std::ostream& operator << (std::ostream &s, const Vec3<T> &v)
+	//{
+	//	return s << '(' << v.x << ' ' << v.y << ' ' << v.z << ')';
+	//}
 
 };
 
@@ -92,4 +103,5 @@ Vector3<T> Vector3<T>::operator*(const T &r) const
 
 
 
-
+typedef Vector3<float> Vector3f;
+typedef Vector3<int> Vector3i;
