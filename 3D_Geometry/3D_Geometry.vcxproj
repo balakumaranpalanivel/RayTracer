@@ -77,9 +77,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Matrix44.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Sphere.h" />
     <ClInclude Include="Vector3.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="Vector3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

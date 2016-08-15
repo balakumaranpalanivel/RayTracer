@@ -9,3 +9,21 @@ GEOMETRY
 			multDirMatrix
 			inverse
 			invert
+
+Mathematical Foundations of Monte Carlo Methods
+	SKIPPING
+
+Monte Carlo Methods in Practice
+	SKIPPING
+
+Matrix Inverse
+	SKIPPING
+
+Quaternions
+	SKIPPING
+
+Interpolation
+	SKIPPING
+
+Introduction To RayTracing - 
+Continue from here : http://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/implementing-the-raytracing-algorithm

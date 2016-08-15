@@ -1,0 +1,13 @@
+﻿Build started 8/14/2016 11:10:22 AM.
+     1>Project "D:\NotWork_D\GitRepos_D\RayTracer\3D_Geometry\3D_Geometry.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Vector3.cpp
+         Vector3.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\NotWork_D\GitRepos_D\RayTracer\Debug\3D_Geometry.lib" /NOLOGO Debug\Vector3.obj
+         3D_Geometry.vcxproj -> D:\NotWork_D\GitRepos_D\RayTracer\Debug\3D_Geometry.lib
+     1>Done Building Project "D:\NotWork_D\GitRepos_D\RayTracer\3D_Geometry\3D_Geometry.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20
